@@ -11,17 +11,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
 				<integer>0</integer>
 				<key>y</key>
 				<integer>0</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (2).png</key>
 			<dict>
@@ -30,17 +30,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
 				<integer>209</integer>
 				<key>y</key>
 				<integer>0</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (3).png</key>
 			<dict>
@@ -49,17 +49,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
-				<integer>0</integer>
+				<integer>418</integer>
 				<key>y</key>
-				<integer>209</integer>
+				<integer>0</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (4).png</key>
 			<dict>
@@ -68,17 +68,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
-				<integer>209</integer>
+				<integer>627</integer>
 				<key>y</key>
-				<integer>209</integer>
+				<integer>0</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (5).png</key>
 			<dict>
@@ -87,17 +87,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
-				<integer>418</integer>
+				<integer>836</integer>
 				<key>y</key>
 				<integer>0</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (6).png</key>
 			<dict>
@@ -106,17 +106,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
-				<integer>418</integer>
+				<integer>1045</integer>
 				<key>y</key>
-				<integer>209</integer>
+				<integer>0</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (7).png</key>
 			<dict>
@@ -125,17 +125,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
-				<integer>627</integer>
+				<integer>1254</integer>
 				<key>y</key>
 				<integer>0</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (8).png</key>
 			<dict>
@@ -144,17 +144,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
-				<integer>627</integer>
+				<integer>1463</integer>
 				<key>y</key>
-				<integer>209</integer>
+				<integer>0</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (9).png</key>
 			<dict>
@@ -163,17 +163,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
-				<integer>0</integer>
+				<integer>1672</integer>
 				<key>y</key>
-				<integer>418</integer>
+				<integer>0</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (10).png</key>
 			<dict>
@@ -182,17 +182,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
 				<integer>0</integer>
 				<key>y</key>
-				<integer>627</integer>
+				<integer>209</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (11).png</key>
 			<dict>
@@ -201,17 +201,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
 				<integer>209</integer>
 				<key>y</key>
-				<integer>418</integer>
+				<integer>209</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>tgg1 (12).png</key>
 			<dict>
@@ -220,17 +220,17 @@
 				<key>height</key>
 				<integer>207</integer>
 				<key>originalWidth</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>originalHeight</key>
-				<integer>208</integer>
+				<integer>207</integer>
 				<key>x</key>
 				<integer>418</integer>
 				<key>y</key>
-				<integer>418</integer>
+				<integer>209</integer>
 				<key>offsetX</key>
-				<real>-0.5</real>
+				<real>0</real>
 				<key>offsetY</key>
-				<real>0.5</real>
+				<real>0</real>
 			</dict>
 			<key>zdt_tgg.png</key>
 			<dict>
@@ -245,7 +245,7 @@
 				<key>x</key>
 				<integer>627</integer>
 				<key>y</key>
-				<integer>418</integer>
+				<integer>209</integer>
 				<key>offsetX</key>
 				<real>0</real>
 				<key>offsetY</key>
