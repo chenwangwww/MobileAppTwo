@@ -1129,16 +1129,16 @@ end
 
 function GameUtil.addBtnTTF0(str, parent, size)
     local lbl = cc.Label:createWithTTF(str, "fonts/fzz.ttf", size)
-    lbl:setColor(cc.c3b(0xb2, 0xa6, 0x92)) -- baa692
-    -- lbl:enableOutline(cc.c4b(0, 0, 0, 122), 1) -- 按钮描边颜色 --cc.c4b(132, 77, 24, 255)
+    lbl:setColor(cc.c3b(0xFF, 0xFF, 0xFF)) -- baa692
+    lbl:enableOutline(cc.c4b(0x01, 0x50, 0x72, 0xFF), 2) -- 按钮描边颜色 --cc.c4b(132, 77, 24, 255)
     parent:getVirtualRenderer():addChild(lbl)
     return lbl
 end
 
 function GameUtil.addBtnTTF1(str, parent, size)
     local lbl = cc.Label:createWithTTF(str, "fonts/fzz.ttf", size)
-    lbl:setColor(cc.c3b(0x4e, 0x30, 0x18))
-    -- lbl:enableOutline(cc.c4b(0, 0, 0, 122), 1)
+    lbl:setColor(cc.c3b(0xFF, 0xFF, 0xFF))
+    lbl:enableOutline(cc.c4b(0x01, 0x50, 0x72, 0xFF), 2)
     parent:getVirtualRenderer():addChild(lbl)
     return lbl
 end
@@ -1149,14 +1149,14 @@ function GameUtil.addBtnTTF2(str, parent, x, y)
     lbl:setColor(cc.c3b(247, 254, 236))
     lbl:setAnchorPoint(display.CENTER)
     lbl:setPosition(x or 108, y or 32)
-    lbl:enableOutline(cc.c4b(132, 77, 24, 255), 2) -- 按钮描边颜色
+    lbl:enableOutline(cc.c4b(0x26, 0x48, 0xc5, 0xFF), 2) -- 按钮描边颜色
     parent:getVirtualRenderer():addChild(lbl)
     return lbl
 end
 
 function GameUtil.addTitleTTF(str, parent)
     local lbl = cc.Label:createWithTTF(str, "fonts/fzcs.ttf", 35)
-    lbl:setColor(cc.c3b(255, 240, 165))
+    lbl:setColor(cc.c3b(255, 255, 255))
     lbl:setAnchorPoint(display.CENTER)
     local ss = parent:getContentSize()
     lbl:setPosition(ss.width / 2, ss.height / 2 - 2)

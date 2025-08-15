@@ -48,7 +48,7 @@ GameDefine.shareAddress = ""
 -- 字体
 GameDefine.FontName = "fonts/fzz.ttf"
 
-GameDefine.FontColor = cc.c3b(0xa8, 0xa2, 0x94)
+GameDefine.FontColor = cc.c3b(0xbc, 0xde, 0xff)
 GameDefine.FontColor_edit = cc.c3b(0x62, 0x5e, 0x55)
 GameDefine.FontCoinColor = cc.c3b(0xd5, 0xc7, 0x61)
 GameDefine.NameColor = cc.c3b(0xe4, 0xd6, 0xb6)

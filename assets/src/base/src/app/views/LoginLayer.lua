@@ -12,19 +12,28 @@ end
 
 function LoginLayer:initView()
     -- 加载背景
-    self.imge_bg = display.newSprite("app/login/bg_denglu1.png"):move(display.center):addTo(self)
-    local contentSize = self.imge_bg:getContentSize()
-    self.imge_bg:setScale(display.width / contentSize.width, display.height / contentSize.height)
+    -- self.imge_bg = display.newSprite("app/login/bg_denglu1.png"):move(display.center):addTo(self)
+    -- local contentSize = self.imge_bg:getContentSize()
+    -- self.imge_bg:setScale(display.width / contentSize.width, display.height / contentSize.height)
 
-    local loginBg = cc.Sprite:create("app/login/bg_denglu2.png")
-    loginBg:move(display.center):addTo(self)
+    -- local loginBg = cc.Sprite:create("app/login/bg_denglu2.png")
+    -- loginBg:move(display.center):addTo(self)
+    local imge_bg = display.newSprite("app/login/bg_denglu3.png"):move(display.center):addTo(self)
+    local contentSize = imge_bg:getContentSize()
 
-    ----[[
-    ccs.ArmatureDataManager:getInstance():addArmatureFileInfo("login/denglu/denglu.ExportJson")
-    local armature = ccs.Armature:create("denglu")
-    armature:getAnimation():playWithIndex(0)
-    armature:align(display.CENTER, display.cx, display.cy):addTo(self)
-    -- ]]
+    -- 计算缩放比例，取宽高比的最大值，确保图片完全覆盖屏幕
+    local scaleX = display.width / contentSize.width
+    local scaleY = display.height / contentSize.height
+    local scale = math.max(scaleX, scaleY) -- 选择较大的缩放比例
+
+    imge_bg:setScale(scale)            -- 等比缩放
+
+    --动画效果
+    -- ccs.ArmatureDataManager:getInstance():addArmatureFileInfo("login/denglu/denglu.ExportJson")
+    -- local armature = ccs.Armature:create("denglu")
+    -- armature:getAnimation():playWithIndex(0)
+    -- armature:align(display.CENTER, display.cx, display.cy):addTo(self)
+    
 
     local logores = "app/login/logo1.png"
     if LangCtrl:isEng() then
@@ -42,18 +51,18 @@ function LoginLayer:initView()
     self.labelVersion:addTo(self)
 
     -- 底部背景
-    local downbg = display.newSprite("app/common/mask.png"):align(display.CENTER, display.cx, 35):addTo(self)
-    downbg:setOpacity(120)
-    downbg:setScale(display.width / 5, 70 / 5)
+    -- local downbg = display.newSprite("app/common/mask.png"):align(display.CENTER, display.cx, 35):addTo(self)
+    -- downbg:setOpacity(120)
+    -- downbg:setScale(display.width / 5, 70 / 5)
 
     -- 提示
     self.hitLabel = cc.Label:createWithTTF("", "app/fonts/fzz.ttf", 18):align(display.CENTER, display.cx, 30)
-    self.hitLabel:setColor(cc.c3b(168, 162, 152))
+    self.hitLabel:setColor(cc.c3b(05, 29, 42))
     self.hitLabel:addTo(self)
 
     -- 申明
     self.declareLabel = cc.Label:createWithTTF("", "app/fonts/fzz.ttf", 18):align(display.CENTER, display.cx, 20)
-    self.declareLabel:setColor(cc.c3b(168, 162, 152))
+    self.declareLabel:setColor(cc.c3b(05, 29, 42))
     self.declareLabel:addTo(self)
 
     -- 添加用户协议
@@ -197,19 +206,19 @@ function LoginLayer:initView()
     local pos1, pos2 = cc.p(50, 40), cc.p(170, 40)
     self.btn_yk = GameUtil.createButton("app/login/btn_dl.png", nil, onClickYK):move(display.cx - 358, display.cy - 150)
     self.btn_yk:addTo(self)
-    GameUtil.addBtnSprite("app/login/icon_dl_1.png", self.btn_yk):align(display.CENTER, 50, 40)
-    GameUtil.addBtnTTF1(LangCtrl:getLang().word302, self.btn_yk, 40):align(display.CENTER, 170, 40)
+    GameUtil.addBtnSprite("app/login/icon_dl_1.png", self.btn_yk):align(display.CENTER, 70, 45)
+    GameUtil.addBtnTTF1(LangCtrl:getLang().word302, self.btn_yk, 28):align(display.CENTER, 160, 45)
 
     self.btn_accountLogin = GameUtil.createButton("app/login/btn_dl.png", nil, onClickAccountLogin):move(display.cx, display.cy - 150)
     self.btn_accountLogin:addTo(self)
-    GameUtil.addBtnSprite("app/login/icon_dl_2.png", self.btn_accountLogin):align(display.CENTER, 50, 40)
-    GameUtil.addBtnTTF1(LangCtrl:getLang().word303, self.btn_accountLogin, 40):align(display.CENTER, 170, 40)
+    GameUtil.addBtnSprite("app/login/icon_dl_2.png", self.btn_accountLogin):align(display.CENTER, 70, 45)
+    GameUtil.addBtnTTF1(LangCtrl:getLang().word303, self.btn_accountLogin, 28):align(display.CENTER, 160, 45)
 
     self.btn_zc = GameUtil.createButton("app/login/btn_dl.png", nil, onClickRegisterAccount):move(display.cx + 358, display.cy - 150)
     self.btn_zc:setVisible(false)
     self.btn_zc:addTo(self)
-    GameUtil.addBtnSprite("app/login/icon_dl_3.png", self.btn_zc):align(display.CENTER, 50, 40)
-    GameUtil.addBtnTTF1(LangCtrl:getLang().word304, self.btn_zc, 40):align(display.CENTER, 170, 40)
+    GameUtil.addBtnSprite("app/login/icon_dl_3.png", self.btn_zc):align(display.CENTER, 70, 45)
+    GameUtil.addBtnTTF1(LangCtrl:getLang().word304, self.btn_zc, 28):align(display.CENTER, 160, 45)
 end
 
 function LoginLayer:setUserAgreementStatue(isSelect)

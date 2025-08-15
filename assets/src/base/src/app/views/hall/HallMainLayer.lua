@@ -19,9 +19,16 @@ end
 
 function HallMainLayer:initView()
     -- 背景
-    local imge_bg = GameUtil.newSprite("app/hall/bg_zdt.jpg", false):align(display.LEFT_BOTTOM, 0, 0):addTo(self)
+    -- local imge_bg = GameUtil.newSprite("app/hall/bg_zdt.png", false):align(display.LEFT_BOTTOM, 0, 0):addTo(self)
+    -- local contentSize = imge_bg:getContentSize()
+    -- imge_bg:setScale(display.width / contentSize.width, display.height / contentSize.height)
+    local imge_bg = GameUtil.newSprite("app/hall/bg_zdt.png", false)
+    :align(display.CENTER_BOTTOM, display.cx, 0)  -- 水平居中，垂直底部对齐
+    :addTo(self)
     local contentSize = imge_bg:getContentSize()
-    imge_bg:setScale(display.width / contentSize.width, display.height / contentSize.height)
+    -- 计算缩放比例，保持宽高比不变，确保图片覆盖全屏
+    local scale = math.max(display.width / contentSize.width, display.height / contentSize.height)
+    imge_bg:setScale(scale)
 
     -- 顶部面板
     local function topCallback(args)

@@ -117,16 +117,16 @@ function WelcomeWinUI:createActiveOrWelcomPanle(isActiv)
         self.toptab_selected:setFlippedX(true)
         self.welcomBtn:setEnabled(true)
         self.activeBtn:setEnabled(false)
-        self.welcomLabel:setColor(cc.c3b(0xb2, 0xa6, 0x92))
-        self.activeLabel:setColor(cc.c3b(255, 240, 165))
+        self.welcomLabel:setColor(cc.c3b(0x84, 0xa1, 0xc3))
+        self.activeLabel:setColor(cc.c3b(255, 255, 255))
         activeData = self:getActivData()
     else
         self.toptab_selected:setPosition(142, 38)
         self.toptab_selected:setFlippedX(false)
         self.welcomBtn:setEnabled(false)
         self.activeBtn:setEnabled(true)
-        self.activeLabel:setColor(cc.c3b(0xb2, 0xa6, 0x92))
-        self.welcomLabel:setColor(cc.c3b(255, 240, 165))
+        self.activeLabel:setColor(cc.c3b(0x84, 0xa1, 0xc3))
+        self.welcomLabel:setColor(cc.c3b(255, 255, 255))
         activeData = self:getWelcomData()
     end
 
@@ -144,11 +144,11 @@ function WelcomeWinUI:createActiveOrWelcomPanle(isActiv)
         img_bg_3:align(display.CENTER_BOTTOM, self.midWidth, 20):addTo(self.showPanel)
 
         if isActiv == true then
-            GameUtil.createLabel(LangCtrl:getLang().word120, 36, cc.c3b(0x9c, 0x96, 0x8a), display.CENTER, cc.p(ss.width / 2, ss.height / 2 + 50), nil, nil):addTo(img_bg_3)
+            GameUtil.createLabel(LangCtrl:getLang().word120, 36, cc.c3b(0xbc, 0xde, 0xff), display.CENTER, cc.p(ss.width / 2, ss.height / 2 + 50), nil, nil):addTo(img_bg_3)
         else
-            GameUtil.createLabel(LangCtrl:getLang().word121, 36, cc.c3b(0x9c, 0x96, 0x8a), display.CENTER, cc.p(ss.width / 2, ss.height / 2 + 50), nil, nil):addTo(img_bg_3)
+            GameUtil.createLabel(LangCtrl:getLang().word121, 36, cc.c3b(0xbc, 0xde, 0xff), display.CENTER, cc.p(ss.width / 2, ss.height / 2 + 50), nil, nil):addTo(img_bg_3)
         end
-        GameUtil.createLabel("~~~~（>_<）~~~~", 36, cc.c3b(0x9c, 0x96, 0x8a), display.CENTER, cc.p(ss.width / 2, ss.height / 2 - 50), nil, nil):addTo(img_bg_3)
+        GameUtil.createLabel("~~~~（>_<）~~~~", 36, cc.c3b(0xbc, 0xde, 0xff), display.CENTER, cc.p(ss.width / 2, ss.height / 2 - 50), nil, nil):addTo(img_bg_3)
     else
         if self.rightNode then
             self.rightNode:removeFromParent()
@@ -240,7 +240,7 @@ function WelcomeWinUI:createMainPanel(isActiv, itemdata)
         textListView:setContentSize(self.right_size.width - 20, self.right_size.height - 60)
         textListView:align(display.LEFT_BOTTOM, 30, 30):addTo(self.rightNode)
 
-        local lbl_content = GameUtil.createLabel(itemdata.szContent, 30, cc.c3b(0x9c, 0x96, 0x8a), display.LEFT_BOTTOM, display.LEFT_BOTTOM)
+        local lbl_content = GameUtil.createLabel(itemdata.szContent, 30, cc.c3b(0xbc, 0xde, 0xff), display.LEFT_BOTTOM, display.LEFT_BOTTOM)
         lbl_content:setMaxLineWidth(self.right_size.width - 60)
         lbl_content:setLineHeight(40)
         lbl_content:setLineBreakWithoutSpace(false)
