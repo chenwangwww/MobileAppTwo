@@ -1,0 +1,16 @@
+{
+    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/jsfy",
+    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/jsfy/project.manifest",
+    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/jsfy/version.manifest",
+    "version" : "11",
+    "mainVersion" : "1",
+    "engineVersion" : "3.16",
+    "assets" : {
+        "jsfy_202501160640.zip" : {
+            "md5" : "8b29ba17ab47284722a06059bdb4c22b",
+            "compressed" : true
+        }
+    },
+    "searchPaths" : [
+    ]
+}

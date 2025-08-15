@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/csd/res/ani/total/but_QueDing01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{205,888},{190,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{202,80}</string>
+			</dict>
+			<key>game/csd/res/ani/total/but_QueDing02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,888},{202,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{202,80}</string>
+			</dict>
+			<key>game/csd/res/ani/total/Img_CaiShenJiangLi_Zi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{754,1},{571,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{571,59}</string>
+			</dict>
+			<key>game/csd/res/ani/total/Img_ChuangLian.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{876,570},{86,316}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{86,316}</string>
+			</dict>
+			<key>game/csd/res/ani/total/Img_DengLong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{397,888},{63,116}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{63,116}</string>
+			</dict>
+			<key>game/csd/res/ani/total/Img_heidiZi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{876,1},{567,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{567,58}</string>
+			</dict>
+			<key>game/csd/res/ani/total/Img_heidiZi01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{936,1},{567,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{567,58}</string>
+			</dict>
+			<key>game/csd/res/ani/total/Img_MianFei_Zi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{815,1},{571,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{571,59}</string>
+			</dict>
+			<key>game/csd/res/ani/total/Img_SheZhiBj.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{751,458}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{751,458}</string>
+			</dict>
+			<key>game/csd/res/ani/total/Img_ZongYingQu_Zi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{964,570},{157,47}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{157,47}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>total.png</string>
+			<key>realTextureFileName</key>
+			<string>total.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

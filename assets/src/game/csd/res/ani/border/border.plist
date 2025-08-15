@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,503},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1005},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1507},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299,1},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{801,1},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1303,1},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0014.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299,299},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0016.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299,801},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture/Simulator 2018-01-16 10-11-48-02.avi0018.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{299,1303},{296,500}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{296,500}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{597,299},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{871,299},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1145,299},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1419,299},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1693,299},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0010.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{597,549},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0012.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{871,549},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0014.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1145,549},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0016.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1419,549},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0018.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1693,549},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0020.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{597,799},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0022.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{597,1073},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+			<key>game/csd/res/ani/border/Capture2/Simulator 2018-01-16 10-39-44-23.avi0024.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{597,1347},{272,248}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{272,248}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>border.png</string>
+			<key>realTextureFileName</key>
+			<string>border.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

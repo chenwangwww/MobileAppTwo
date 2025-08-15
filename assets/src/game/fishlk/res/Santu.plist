@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>anniou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{126,878},{115,115}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{115,115}</string>
+			</dict>
+			<key>card_ion.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{245,878},{105,107}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{105,107}</string>
+			</dict>
+			<key>cursor.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{245,989},{32,32}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,32}</string>
+			</dict>
+			<key>di.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{256,624},{226,226}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{226,226}</string>
+			</dict>
+			<key>my_weizhi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{354,854},{180,45}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{180,45}</string>
+			</dict>
+			<key>notice_dragon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{618,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{618,109}</string>
+			</dict>
+			<key>notice_lk.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{354,2},{618,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{618,109}</string>
+			</dict>
+			<key>notice_Penguin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{115,2},{618,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{618,109}</string>
+			</dict>
+			<key>notice_Shark.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{228,2},{618,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{618,109}</string>
+			</dict>
+			<key>yangguang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,624},{250,250}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{250,250}</string>
+			</dict>
+			<key>zi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,878},{120,120}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{120,120}</string>
+			</dict>
+			<key>chip.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{467,2},{32,306}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{32,306}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Santu.png</string>
+			<key>realTextureFileName</key>
+			<string>Santu.png</string>
+			<key>size</key>
+			<string>{536,1023}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>536</integer>
+			<key>height</key>
+			<integer>1023</integer>
+		</dict>
+	</dict>
+</plist>

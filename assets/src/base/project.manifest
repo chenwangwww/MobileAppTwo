@@ -1,0 +1,16 @@
+{ 
+    "packageUrl" : "",
+    "remoteManifestUrl" : "",
+    "remoteVersionUrl" : "",
+    "version" : "2.0.0",
+    "mainVersion" : "2.0.0",
+    "engineVersion" : "3.16",
+    "assets" : {
+        "hall_202401010509.zip" : {
+            "md5" : "ab264c141a6c0eaa359ee03b70770fe9",
+            "compressed" : true
+        }
+    }, 
+    "searchPaths" : [
+    ] 
+} 

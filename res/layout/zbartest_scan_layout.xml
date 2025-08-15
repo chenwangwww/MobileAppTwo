@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/MatchMatch"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.qianniao.zbarscanner.zbar.ZBarView android:id="@id/zbarview" app:qrcv_topOffset="90.0dip" app:qrcv_cornerSize="1.5dip" app:qrcv_cornerLength="15.0dip" app:qrcv_cornerColor="@color/colorAccent" app:qrcv_rectWidth="200.0dip" app:qrcv_barcodeRectHeight="120.0dip" app:qrcv_maskColor="#66000000" app:qrcv_scanLineSize="2.0dip" app:qrcv_scanLineColor="@color/colorAccent" app:qrcv_scanLineMargin="0.0dip" app:qrcv_isShowDefaultScanLineDrawable="false" app:qrcv_borderSize="0.0px" app:qrcv_borderColor="#ffc9c9c9" app:qrcv_animTime="1000" app:qrcv_toolbarHeight="56.0dip" app:qrcv_isBarcode="false" app:qrcv_qrCodeTipText="将二维码放入框内，即可自动扫描" app:qrcv_barCodeTipText="" app:qrcv_isTipTextBelowRect="true" app:qrcv_isShowTipTextAsSingleLine="false" app:qrcv_isShowTipBackground="true" app:qrcv_isShowDefaultGridScanLineDrawable="false" app:qrcv_isOnlyDecodeScanBoxArea="true" style="@style/MatchMatch" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <LinearLayout android:gravity="center" android:id="@id/line_back" android:layout_width="48.0dip" android:layout_height="48.0dip">
+            <ImageView android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@mipmap/scancode_back" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageView android:id="@id/scancode_localimg" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@mipmap/scancode_localimg" />
+        <ToggleButton android:id="@id/scancode_lamplight" android:background="@drawable/scancode_toggle_lamplight" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="16.0dip" android:checked="false" android:textOn="" android:textOff="" />
+    </LinearLayout>
+</RelativeLayout>

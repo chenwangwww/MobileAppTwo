@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/csd/res/ani/bigwin/MEGAWIN/img_MEGAWIN.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1006,483},{593,344}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{638,348}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/new/j1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1928,699},{143,87}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{143,87}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/new/j3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1928,934},{92,96}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{92,96}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/new/j4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1928,844},{88,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{88,109}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/new/sn_texiao_guangdian_002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{515,784},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/new/z1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,351},{657,431}}</string>
+				<key>offset</key>
+				<string>{-312,-144}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1280,720}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/new/z2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{1082,348}}</string>
+				<key>offset</key>
+				<string>{-39,-186}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1280,720}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/new/z3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1085,1},{627,480}}</string>
+				<key>offset</key>
+				<string>{326,-120}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1280,720}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/SUPERWIN/img_SUPERWIN.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{660,351},{638,344}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{638,348}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/ULTRAWIN/img_ULTRAWIN.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1006,947},{628,348}}</string>
+				<key>offset</key>
+				<string>{-3,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{638,348}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/12345.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1850,1028},{651,144}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{651,144}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/BIGWIN.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{515,991},{424,344}}</string>
+				<key>offset</key>
+				<string>{-4,94}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1280,720}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/ying.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1298},{424,344}}</string>
+				<key>offset</key>
+				<string>{-4,94}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1280,720}</string>
+			</dict>
+			<key>game/csd/res/ani/jackpot/piaodai.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1714,1},{944,212}}</string>
+				<key>offset</key>
+				<string>{8,48}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1280,720}</string>
+			</dict>
+			<key>game/csd/res/ani/jackpot/shuzikuang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{941,1297},{651,144}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{651,144}</string>
+			</dict>
+			<key>game/csd/res/ani/jackpot/spark2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,784},{512,512}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{512,512}</string>
+			</dict>
+			<key>game/csd/res/ani/jackpot/wenzi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1636,947},{678,212}}</string>
+				<key>offset</key>
+				<string>{5,89}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1280,720}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/dingtop.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1928,354},{343,83}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{343,83}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/dingtop02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1928,1},{351,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{351,82}</string>
+			</dict>
+			<key>game/csd/res/ani/bigwin/Img_CaiJin_Zi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2012,1},{167,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{167,31}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>bigwin.png</string>
+			<key>realTextureFileName</key>
+			<string>bigwin.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,16 @@
+{ 
+    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/jldb",
+    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/jldb/project.manifest",
+    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/jldb/version.manifest",
+    "version" : "5",
+    "mainVersion" : "1",
+    "engineVersion" : "3.16",
+    "assets" : {
+        "jldb_202501160640.zip" : {
+            "md5" : "df9a79fa11db4f66d1e8f8e7e0786ba4",
+            "compressed" : true
+        }
+    }, 
+    "searchPaths" : [
+    ] 
+} 

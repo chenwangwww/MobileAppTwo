@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/csd/res/ani/fx_WILD/yan/071.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{513,1},{233,258}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{233,258}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/081.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{653,715},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/091.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{797,715},{148,149}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{148,149}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/101.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{613,521},{189,192}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{189,192}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/111.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{748,1},{221,232}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{221,232}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/112.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{271,291},{246,258}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{246,258}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/113.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,581},{261,277}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{261,277}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/114.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,291},{268,288}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{268,288}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/115.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{269,288}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{269,288}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/116.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{264,581},{257,271}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{257,271}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/117.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{272,1},{239,260}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{239,260}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/yan/118.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{519,261},{233,258}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{233,258}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/a4b44c.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{523,715},{128,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/bd.jpg</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,860},{160,396}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{160,396}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/bianpao01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{797,865},{115,183}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{115,183}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/D.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{754,330},{93,92}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{93,92}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/I.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{519,521},{40,92}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{40,92}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/kuang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{399,854},{160,396}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{160,396}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/L.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{523,563},{70,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,94}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_WILD/W.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{754,235},{96,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{96,93}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>wild.png</string>
+			<key>realTextureFileName</key>
+			<string>wild.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

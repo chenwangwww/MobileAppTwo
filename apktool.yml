@@ -1,0 +1,27 @@
+version: 2.11.1
+apkFileName: project.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 25
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 3
+  versionName: 2.0.0
+sharedLibrary: false
+sparseResources: false
+compactEntries: false
+doNotCompress:
+- arsc
+- jpg
+- mp3
+- ogg
+- png
+- assets/src/base/res/app/gameoption.json
+- assets/src/game/shz/res/game2/game2_btn_All_02.PNG

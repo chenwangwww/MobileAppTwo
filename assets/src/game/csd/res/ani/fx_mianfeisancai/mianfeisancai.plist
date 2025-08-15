@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/guanxiao4 1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{515,223},{256,256}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/Img_HuoDe.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,837},{202,98}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{202,98}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/Img_MianFeiXuanZhuan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{949,1},{294,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{294,73}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/Img_Yun01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{889,540},{285,78}}</string>
+				<key>offset</key>
+				<string>{8,-35}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{668,186}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/Img_Yun02.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,703},{202,80}}</string>
+				<key>offset</key>
+				<string>{190,-18}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{668,186}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/Img_Yun03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{773,223},{624,114}}</string>
+				<key>offset</key>
+				<string>{13,-17}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{668,186}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/Img_Yun04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,515},{668,186}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{668,186}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/quanquan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{512,512}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{512,512}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/sssssgggggg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{515,1},{220,432}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{220,432}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/Img_CaiShen.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{889,297},{241,104}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{241,104}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_mianfeisancai/Img_SanCaiYouXi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{671,481},{354,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{354,82}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>mianfeisancai.png</string>
+			<key>realTextureFileName</key>
+			<string>mianfeisancai.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

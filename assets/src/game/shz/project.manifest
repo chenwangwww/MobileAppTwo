@@ -1,0 +1,16 @@
+{ 
+    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/shz",
+    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/shz/project.manifest",
+    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/shz/version.manifest",
+    "version" : "16",
+    "mainVersion" : "1",
+    "engineVersion" : "3.16",
+    "assets" : {
+        "shz_202501160640.zip" : {
+            "md5" : "d1fd9c80efdeb38a78912487ed20b81a",
+            "compressed" : true
+        }
+    }, 
+    "searchPaths" : [
+    ] 
+} 

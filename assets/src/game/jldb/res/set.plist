@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>autoBet.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,3},{244,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{244,105}</string>
+			</dict>
+			<key>autoBet1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{633,253},{244,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{244,105}</string>
+			</dict>
+			<key>bt_checked.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{744,422},{36,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{36,36}</string>
+			</dict>
+			<key>bt_slide.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{744,314},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>bt_slide2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{744,368},{48,48}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{48,48}</string>
+			</dict>
+			<key>dlgset.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,3},{624,364}}</string>
+				<key>offset</key>
+				<string>{1,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{628,372}</string>
+			</dict>
+			<key>handBet.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{3,373},{244,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{244,105}</string>
+			</dict>
+			<key>handBet1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{253,373},{244,105}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{244,105}</string>
+			</dict>
+			<key>line.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{744,3},{305,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{305,18}</string>
+			</dict>
+			<key>lineBG.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{768,3},{305,18}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{305,18}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>set.png</string>
+			<key>realTextureFileName</key>
+			<string>set.png</string>
+			<key>size</key>
+			<string>{795,500}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>795</integer>
+			<key>height</key>
+			<integer>500</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/csd/res/ani/fx_qiufeiru/hit/z_00000.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{261,473},{1,1}}</string>
+				<key>offset</key>
+				<string>{319,-239}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,480}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/hit/z_00001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{417,259},{121,145}}</string>
+				<key>offset</key>
+				<string>{-2,-15}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,480}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/hit/z_00003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{256,256}}</string>
+				<key>offset</key>
+				<string>{-2,-16}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,480}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/hit/z_00004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{261,259},{154,155}}</string>
+				<key>offset</key>
+				<string>{-9,-16}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,480}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/hit/z_00005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,259},{258,251}}</string>
+				<key>offset</key>
+				<string>{-1,-12}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,480}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/hit/z_00006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{259,1},{256,242}}</string>
+				<key>offset</key>
+				<string>{-11,-13}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{640,480}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/hit/z_00007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{261,476},{1,1}}</string>
+				<key>offset</key>
+				<string>{319,-239}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{640,480}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/10001.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{431,461},{50,50}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{55,55}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/10002.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{483,461},{50,50}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{55,55}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/10003.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{535,458},{48,48}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{55,55}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/10004.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{485,406},{50,50}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{55,55}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/10005.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{431,406},{53,52}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{55,55}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/10006.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{375,416},{54,54}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{55,55}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/10007.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{261,416},{55,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{55,55}</string>
+			</dict>
+			<key>game/csd/res/ani/fx_qiufeiru/10008.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{318,416},{55,55}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{55,55}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>qiufeiru.png</string>
+			<key>realTextureFileName</key>
+			<string>qiufeiru.png</string>
+			<key>size</key>
+			<string>{1024,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

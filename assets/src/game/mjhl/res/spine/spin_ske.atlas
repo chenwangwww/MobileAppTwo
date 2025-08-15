@@ -1,0 +1,48 @@
+
+spin_ske.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn_mj_1
+  rotate: false
+  xy: 2, 2
+  size: 171, 182
+  orig: 171, 182
+  offset: 0, 0
+  index: -1
+btn_mj_2
+  rotate: false
+  xy: 661, 78
+  size: 106, 106
+  orig: 106, 106
+  offset: 0, 0
+  index: -1
+btn_mj_3
+  rotate: false
+  xy: 175, 2
+  size: 171, 182
+  orig: 171, 182
+  offset: 0, 0
+  index: -1
+btn_mj_4
+  rotate: false
+  xy: 348, 2
+  size: 171, 182
+  orig: 171, 182
+  offset: 0, 0
+  index: -1
+btn_mj_5
+  rotate: false
+  xy: 769, 80
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 521, 56
+  size: 138, 128
+  orig: 138, 128
+  offset: 0, 0
+  index: -1

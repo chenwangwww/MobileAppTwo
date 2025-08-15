@@ -1,0 +1,16 @@
+{
+    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/tgg",
+    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/tgg/project.manifest",
+    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/tgg/version.manifest",
+    "version" : "10",
+    "mainVersion" : "1",
+    "engineVersion" : "3.16",
+    "assets" : {
+        "tgg_202501160640.zip" : {
+            "md5" : "65205150934c8c65c326bbcb3a65ffd2",
+            "compressed" : true
+        }
+    },
+    "searchPaths" : [
+    ]
+}

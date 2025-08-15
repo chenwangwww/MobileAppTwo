@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/jpm/res/rule/rule_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{1114,744}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1114,744}</string>
+			</dict>
+			<key>game/jpm/res/rule/rule1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1114,0},{877,449}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{877,449}</string>
+			</dict>
+			<key>game/jpm/res/rule/rule2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1114,449},{877,449}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{877,449}</string>
+			</dict>
+			<key>game/jpm/res/rule/rule3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,744},{865,416}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{865,416}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Rule.png</string>
+			<key>realTextureFileName</key>
+			<string>Rule.png</string>
+			<key>size</key>
+			<string>{2048,2048}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>2048</integer>
+		</dict>
+	</dict>
+</plist>

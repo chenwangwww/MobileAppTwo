@@ -1,0 +1,16 @@
+{
+    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/mjhl",
+    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/mjhl/project.manifest",
+    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/mjhl/version.manifest",
+    "version" : "8",
+    "mainVersion" : "1",
+    "engineVersion" : "3.16",
+    "assets" : {
+        "mjhl_202501160640.zip" : {
+            "md5" : "0840a65d2d66d4516ee3b5fa8048b2af",
+            "compressed" : true
+        }
+    },
+    "searchPaths" : [
+    ]
+}

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,578},{1,1}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1,1}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,583},{1,1}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1,1}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,588},{1,1}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1,1}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,593},{1,1}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1,1}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,598},{1,1}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1,1}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{102,108}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,108}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,498},{72,76}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{72,76}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,324},{82,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{82,80}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,114},{102,104}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{102,104}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,222},{92,98}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{92,98}</string>
+			</dict>
+			<key>game/jpm/res/daoguang/daoguang_animation_9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,410},{78,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{78,84}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>DaoGuang.png</string>
+			<key>realTextureFileName</key>
+			<string>DaoGuang.png</string>
+			<key>size</key>
+			<string>{106,601}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>106</integer>
+			<key>height</key>
+			<integer>601</integer>
+		</dict>
+	</dict>
+</plist>

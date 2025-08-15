@@ -1,0 +1,16 @@
+{ 
+    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/lhdb",
+    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/lhdb/project.manifest",
+    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/lhdb/version.manifest",
+    "version" : "3",
+    "mainVersion" : "1",
+    "engineVersion" : "3.16",
+    "assets" : {
+        "lhdb_202501160640.zip" : {
+            "md5" : "74dba0e7900dd9c56cbb70566932fbb4",
+            "compressed" : true
+        }
+    }, 
+    "searchPaths" : [
+    ] 
+} 

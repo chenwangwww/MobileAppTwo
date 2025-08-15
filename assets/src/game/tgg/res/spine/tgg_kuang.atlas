@@ -1,0 +1,69 @@
+
+tgg_kuang.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 264, 113
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 378, 185
+  size: 76, 60
+  orig: 76, 60
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 96, 4
+  size: 80, 63
+  orig: 80, 63
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 180, 84
+  size: 82, 64
+  orig: 82, 64
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 2
+  size: 92, 65
+  orig: 92, 65
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 180, 150
+  size: 113, 95
+  orig: 113, 95
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 295, 181
+  size: 81, 64
+  orig: 81, 64
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 456, 214
+  size: 45, 31
+  orig: 45, 31
+  offset: 0, 0
+  index: -1
+xiaokuang
+  rotate: false
+  xy: 2, 69
+  size: 176, 176
+  orig: 177, 177
+  offset: 0, 1
+  index: -1

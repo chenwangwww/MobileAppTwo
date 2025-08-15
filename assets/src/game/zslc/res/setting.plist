@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>setting_png/setting_bar_progress.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{548,1},{291,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{291,42}</string>
+			</dict>
+			<key>setting_png/setting_bar_track.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{841,1},{291,42}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{291,42}</string>
+			</dict>
+			<key>setting_png/setting_bg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{545,480}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{545,480}</string>
+			</dict>
+			<key>setting_png/setting_btn_close.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{885,162},{68,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{68,68}</string>
+			</dict>
+			<key>setting_png/setting_effecton.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{960,1},{103,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{103,43}</string>
+			</dict>
+			<key>setting_png/setting_musicon.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{960,106},{103,43}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{103,43}</string>
+			</dict>
+			<key>setting_png/setting_normal1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{955,211},{66,65}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{66,65}</string>
+			</dict>
+			<key>setting_png/setting_title.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{885,1},{159,73}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{159,73}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>setting.png</string>
+			<key>realTextureFileName</key>
+			<string>setting.png</string>
+			<key>size</key>
+			<string>{1022,482}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1022</integer>
+			<key>height</key>
+			<integer>482</integer>
+		</dict>
+	</dict>
+</plist>

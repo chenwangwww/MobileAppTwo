@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/jpm/res/lines/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,964},{679,10}}</string>
+				<key>offset</key>
+				<string>{-1,7}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1368,2},{678,269}}</string>
+				<key>offset</key>
+				<string>{-3,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1368,275},{678,269}}</string>
+				<key>offset</key>
+				<string>{-3,11}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/12.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{693,821},{682,132}}</string>
+				<key>offset</key>
+				<string>{2,70}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{273,2},{682,132}}</string>
+				<key>offset</key>
+				<string>{2,-54}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/14.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{966,2},{684,131}}</string>
+				<key>offset</key>
+				<string>{3,69}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1101,2},{684,131}}</string>
+				<key>offset</key>
+				<string>{3,-59}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{685,964},{679,10}}</string>
+				<key>offset</key>
+				<string>{0,130}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,978},{679,10}}</string>
+				<key>offset</key>
+				<string>{-1,-128}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{687,267}}</string>
+				<key>offset</key>
+				<string>{1,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,693},{687,267}}</string>
+				<key>offset</key>
+				<string>{1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{409,2},{682,132}}</string>
+				<key>offset</key>
+				<string>{-4,71}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{545,2},{682,132}}</string>
+				<key>offset</key>
+				<string>{2,-59}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1368,548},{674,269}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+			<key>game/jpm/res/lines/9.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{693,2},{674,269}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{1334,750}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Lines.png</string>
+			<key>realTextureFileName</key>
+			<string>Lines.png</string>
+			<key>size</key>
+			<string>{2048,990}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>2048</integer>
+			<key>height</key>
+			<integer>990</integer>
+		</dict>
+	</dict>
+</plist>

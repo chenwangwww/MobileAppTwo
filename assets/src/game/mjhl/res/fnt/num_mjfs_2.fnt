@@ -1,0 +1,20 @@
+info face="num_mjfs_2" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=149 base=26 scaleW=424 scaleH=401 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="num_mjfs_2.png"
+chars count=14
+char id=48 x=224 y=0 width=106 height=127 xoffset=0 yoffset=17 xadvance=107 page=0 chnl=0 letter="0"
+char id=49 x=331 y=0 width=80 height=127 xoffset=0 yoffset=17 xadvance=81 page=0 chnl=0 letter="1"
+char id=50 x=0 y=0 width=115 height=122 xoffset=0 yoffset=21 xadvance=116 page=0 chnl=0 letter="2"
+char id=51 x=226 y=264 width=98 height=127 xoffset=0 yoffset=17 xadvance=99 page=0 chnl=0 letter="3"
+char id=52 x=0 y=123 width=114 height=135 xoffset=0 yoffset=14 xadvance=115 page=0 chnl=0 letter="4"
+char id=53 x=226 y=128 width=106 height=135 xoffset=0 yoffset=14 xadvance=107 page=0 chnl=0 letter="5"
+char id=54 x=115 y=123 width=108 height=130 xoffset=0 yoffset=17 xadvance=109 page=0 chnl=0 letter="6"
+char id=55 x=325 y=264 width=98 height=136 xoffset=0 yoffset=13 xadvance=99 page=0 chnl=0 letter="7"
+char id=56 x=113 y=259 width=112 height=137 xoffset=0 yoffset=13 xadvance=113 page=0 chnl=0 letter="8"
+char id=57 x=0 y=259 width=112 height=136 xoffset=0 yoffset=13 xadvance=113 page=0 chnl=0 letter="9"
+char id=44 x=116 y=49 width=49 height=58 xoffset=0 yoffset=104 xadvance=50 page=0 chnl=0 letter=","
+char id=46 x=116 y=0 width=56 height=48 xoffset=0 yoffset=107 xadvance=57 page=0 chnl=0 letter="."
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=20 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=160 page=0 chnl=0 letter="	"
+
+kernings count=0

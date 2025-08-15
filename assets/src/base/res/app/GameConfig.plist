@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GameConfig</key>
+	<dict>
+		<key>ios_main_version</key>
+		<string>1.0.8</string>
+		<key>android_main_version</key>
+		<string>1.0.7</string>
+		<key>res_version</key>
+		<string>1.0</string>
+		<key>net_version</key>
+		<string>5</string>
+		<key>net_param_type</key>
+		<string>1</string>
+		<key>net_param</key>
+		<string>1</string>
+		<key>net_falg</key>
+		<string>1</string>
+	</dict>
+</dict>
+</plist>

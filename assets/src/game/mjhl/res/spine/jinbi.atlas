@@ -1,0 +1,132 @@
+
+jinbi.png
+size: 1667,394
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bw_particle_c_02
+  rotate: false
+  xy: 1626, 353
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+jb/bw_particle_b_00
+  rotate: false
+  xy: 2, 184
+  size: 208, 208
+  orig: 208, 208
+  offset: 0, 0
+  index: -1
+jb/bw_particle_b_01
+  rotate: false
+  xy: 212, 184
+  size: 208, 208
+  orig: 208, 208
+  offset: 0, 0
+  index: -1
+jb/bw_particle_b_02
+  rotate: false
+  xy: 422, 184
+  size: 208, 208
+  orig: 208, 208
+  offset: 0, 0
+  index: -1
+jb/bw_particle_b_03
+  rotate: false
+  xy: 632, 184
+  size: 208, 208
+  orig: 208, 208
+  offset: 0, 0
+  index: -1
+jb/bw_particle_b_04
+  rotate: false
+  xy: 842, 184
+  size: 208, 208
+  orig: 208, 208
+  offset: 0, 0
+  index: -1
+jb/bw_particle_b_05
+  rotate: false
+  xy: 1052, 184
+  size: 208, 208
+  orig: 208, 208
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_00
+  rotate: false
+  xy: 2, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_01
+  rotate: false
+  xy: 1262, 212
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_02
+  rotate: false
+  xy: 184, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_03
+  rotate: false
+  xy: 1444, 212
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_04
+  rotate: false
+  xy: 366, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_05
+  rotate: false
+  xy: 548, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_06
+  rotate: false
+  xy: 730, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_07
+  rotate: false
+  xy: 912, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_08
+  rotate: false
+  xy: 1094, 2
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_09
+  rotate: false
+  xy: 1276, 30
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
+jb2/bw_particle_a_10
+  rotate: false
+  xy: 1458, 30
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1

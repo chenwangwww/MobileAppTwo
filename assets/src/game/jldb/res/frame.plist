@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>game/jldb/res/frame/bt_col.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{717,61},{80,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>game/jldb/res/frame/bt_col2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{797,61},{80,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>game/jldb/res/frame/bt_more.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,94},{80,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>game/jldb/res/frame/bt_more2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{80,94},{80,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>game/jldb/res/frame/bt_rule.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{924,0},{199,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{199,59}</string>
+			</dict>
+			<key>game/jldb/res/frame/bt_rule2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{518,61},{199,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,59}</string>
+			</dict>
+			<key>game/jldb/res/frame/bt_set.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{518,0},{203,61}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{205,62}</string>
+			</dict>
+			<key>game/jldb/res/frame/bt_set2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{721,0},{203,61}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{205,62}</string>
+			</dict>
+			<key>game/jldb/res/frame/btn_back_d.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{160,94},{80,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>game/jldb/res/frame/btn_back_n.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{240,94},{80,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,80}</string>
+			</dict>
+			<key>caijinBG.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{518,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{518,94}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>frame.png</string>
+			<key>realTextureFileName</key>
+			<string>frame.png</string>
+			<key>size</key>
+			<string>{983,199}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>983</integer>
+			<key>height</key>
+			<integer>199</integer>
+		</dict>
+	</dict>
+</plist>

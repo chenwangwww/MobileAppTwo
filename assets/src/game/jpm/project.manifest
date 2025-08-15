@@ -1,0 +1,16 @@
+{
+    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/jpm",
+    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/jpm/project.manifest",
+    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/jpm/version.manifest",
+    "version" : "9",
+    "mainVersion" : "1",
+    "engineVersion" : "3.16",
+    "assets" : {
+        "jpm_202501160640.zip" : {
+            "md5" : "de813260c1a35b26b5eea3ff69af659c",
+            "compressed" : true
+        }
+    },
+    "searchPaths" : [
+    ]
+}

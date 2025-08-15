@@ -1,0 +1,16 @@
+{ 
+    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/fishlk",
+    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/fishlk/project.manifest",
+    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/fishlk/version.manifest",
+    "version" : "20",
+    "mainVersion" : "1",
+    "engineVersion" : "3.16",
+    "assets" : {
+        "fishlk_202501160640.zip" : {
+            "md5" : "bff7e8eda070c6e76438426b9f19fdda",
+            "compressed" : true
+        }
+    }, 
+    "searchPaths" : [
+    ] 
+} 
