@@ -65,9 +65,9 @@ end
 
 function HallNodeBottom:addBtnLabel(str, parent)
     local lbl = cc.Label:createWithTTF(str, "fonts/fzz.ttf", 28)
-    lbl:setColor(cc.c3b(204, 182, 129))
+    lbl:setColor(cc.c3b(0xd2, 0xfb, 0xff))
     lbl:enableBold()
-    -- lbl:enableOutline(cc.c4b(0, 0, 0, 122), 1)
+    lbl:enableOutline(cc.c3b(1, 80, 144), 1)
     parent:getVirtualRenderer():addChild(lbl)
     return lbl
 end

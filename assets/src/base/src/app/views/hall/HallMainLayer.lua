@@ -103,10 +103,10 @@ function HallMainLayer:createHotShow()
 
     local namestr = LangCtrl:gameName(PlazaManager.hotShowGameData.wKindID, PlazaManager.hotShowGameData.szKindName)
     local content = cc.Label:createWithTTF(namestr, "app/fonts/fzcy.ttf", 40)
-    content:setColor(cc.c3b(237, 230, 175))
+    content:setColor(cc.c3b(255, 255, 255))
     -- content:enableOutline(cc.c4b(132, 77, 24, 255), 2)
-    content:enableOutline(cc.c4b(94, 26, 5, 255), 2)
-    content:align(display.CENTER, 150, 28):addTo(gameItem) --  307  478
+    content:enableOutline(cc.c3b(0x01, 0x50, 0x72), 2)
+    content:align(display.CENTER, 150, 48):addTo(gameItem) --  307  478
 
     -- GameUtil.newSprite("app/hall/gamelist/huobao.png", false):align(display.LEFT_CENTER, 0, 190):addTo(gameItem)
 

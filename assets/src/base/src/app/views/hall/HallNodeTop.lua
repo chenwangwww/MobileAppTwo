@@ -57,13 +57,13 @@ function HallNodeTop:initView()
     avatarbg:setScale(0.5)
 
     -- 昵称
-    self.lbl_niceName = GameUtil.createLabel(globalUserInfo.szNickName, 26, cc.c3b(0xd7, 0xce, 0x8d), display.LEFT_CENTER, cc.p(120, 75), nil, cc.size(200, 30))
+    self.lbl_niceName = GameUtil.createLabel(globalUserInfo.szNickName, 26, cc.c3b(0xff, 0xff, 0xff), display.LEFT_CENTER, cc.p(120, 75), nil, cc.size(200, 30))
     self.lbl_niceName:addTo(self)
     self.lbl_niceName:setName("lbl_niceName")
 
     -- ID
     local IDStr = string.format("ID: %s", globalUserInfo.dwGameID)
-    local lbl_ID = GameUtil.createLabel(IDStr, 26, cc.c3b(0xe4, 0xd6, 0xb5), display.LEFT_CENTER, cc.p(120, 40), nil, cc.size(200, 35)):addTo(self)
+    local lbl_ID = GameUtil.createLabel(IDStr, 26, cc.c3b(0xff, 0xff, 0xff), display.LEFT_CENTER, cc.p(120, 40), nil, cc.size(200, 35)):addTo(self)
     lbl_ID:setName("lbl_ID")
 
     -- 金币数量

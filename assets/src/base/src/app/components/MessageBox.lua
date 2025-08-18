@@ -23,7 +23,7 @@ function _M.showTips(text, color, pos)
     local size = nil
     if type(text) == "string" then
         if color == nil then
-            color = cc.c3b(0xaa, 0x9b, 0x7b)
+            color = cc.c3b(0xbc, 0xde, 0xff)
         end
         content = cc.Label:createWithTTF(text, "app/fonts/fzcy.ttf", 36)
         content:setColor(color):setCascadeOpacityEnabled(true)

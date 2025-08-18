@@ -330,9 +330,9 @@ function HallNodeGameList:createGameItem(gameInfo, pos)
 
         local namestr = LangCtrl:gameName(gameInfo.wKindID, gameInfo.szKindName)
         local content = cc.Label:createWithTTF(namestr, "app/fonts/fzcy.ttf", 36)
-        content:setColor(cc.c3b(237, 230, 175))
+        content:setColor(cc.c3b(255, 255, 255))
         -- content:enableOutline(cc.c4b(132, 77, 24, 255), 2)
-        content:enableOutline(cc.c4b(94, 26, 5, 255), 2)
+        content:enableOutline(cc.c3b(0x01, 0x50, 0x72), 2)
         content:align(display.CENTER, 125, 30):addTo(gameItem)
     else
         GameUtil.newSprite("app/hall/gamelist/gameicon/game_defeal.png", false):align(display.CENTER, 125, 125):addTo(gameItem)

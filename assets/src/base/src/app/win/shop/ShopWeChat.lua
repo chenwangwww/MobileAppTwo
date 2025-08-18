@@ -243,7 +243,7 @@ function ShopWeChat:createGoodeItem(data)
     local head = cc.Sprite:create(headres):addTo(goodNode)
     head:align(display.CENTER_TOP, self.itemcx, self.item_size.height - 10)
 
-    GameUtil.createLabel(LangCtrl:getLang().word82 .. tostring(data.szWeixin), 24, cc.c3b(0xc8, 0xad, 0x6a), display.CENTER, cc.p(self.itemcx, 105), GameDefine.FontName, nil, nil, nil, true, false):addTo(
+    GameUtil.createLabel(LangCtrl:getLang().word82 .. tostring(data.szWeixin), 24, cc.c3b(0xbc, 0xde, 0xff), display.CENTER, cc.p(self.itemcx, 105), GameDefine.FontName, nil, nil, nil, true, false):addTo(
         goodNode)
 
     local function onBtnclick(sender, event)

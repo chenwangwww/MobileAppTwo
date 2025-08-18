@@ -49,7 +49,7 @@ function ShopCopyWeChat:initView()
     local head = cc.Sprite:create(headres):setScale(1.2)
     head:addTo(self.panelNode):align(display.CENTER_BOTTOM, self.midWidth, self.midHeight + 20)
 
-    GameUtil.createLabel(LangCtrl:getLang().word82 .. self.wechat.szWeixin, 24, cc.c3b(0xc8, 0xad, 0x6a), display.CENTER, cc.p(self.midWidth, self.midHeight - 30), GameDefine.FontName, nil, nil, nil,
+    GameUtil.createLabel(LangCtrl:getLang().word82 .. self.wechat.szWeixin, 24, cc.c3b(0xbc, 0xde, 0xff), display.CENTER, cc.p(self.midWidth, self.midHeight - 30), GameDefine.FontName, nil, nil, nil,
         true, false):addTo(self.panelNode)
 
     GameUtil.createLabel(LangCtrl:getLang().word217, 24, GameDefine.FontColor, display.CENTER, cc.p(self.midWidth, self.midHeight - 80), GameDefine.FontName, nil, nil, nil, true, false):addTo(

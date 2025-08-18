@@ -1156,11 +1156,11 @@ end
 
 function GameUtil.addTitleTTF(str, parent)
     local lbl = cc.Label:createWithTTF(str, "fonts/fzcs.ttf", 35)
-    lbl:setColor(cc.c3b(255, 255, 255))
+    lbl:setColor(cc.c3b(0xc5, 0xec, 0xff))
     lbl:setAnchorPoint(display.CENTER)
     local ss = parent:getContentSize()
     lbl:setPosition(ss.width / 2, ss.height / 2 - 2)
-    lbl:enableOutline(cc.c4b(94, 26, 5, 255), 1) -- 标题描边颜色
+    -- lbl:enableOutline(cc.c4b(94, 26, 5, 255), 1) -- 标题描边颜色
     parent:addChild(lbl)
     return lbl
 end

@@ -499,7 +499,7 @@ function HallNodeRoomList:createConfigItem(roomItemData, configData)
             ttfSize = 36
         end
         local content = cc.Label:createWithTTF(roomItemData.name, "app/fonts/fzcy.ttf", ttfSize)
-        content:setColor(cc.c3b(0x92, 0xf5, 0xff))
+        content:setColor(cc.c3b(0xf0, 0xfd, 0xfe))
         -- content:enableOutline(cc.c4b(132, 77, 24, 255), 2)
         content:enableOutline(cc.c4b(0x00, 0x1e, 0x5d, 0xff), 2)
         local titleX = configData.titleX or configData.size.width / 2

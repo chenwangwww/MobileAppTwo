@@ -84,8 +84,8 @@ function InputPassWinUI:ctor()
 
         local txtnum = cc.Label:createWithTTF(buttonName[i], "app/fonts/fzcy.ttf", 50)
         txtnum:align(display.CENTER, 128, 51)
-        txtnum:setColor(cc.c3b(250, 247, 212))
-        txtnum:enableOutline(cc.c4b(68, 59, 52, 255), 3)
+        txtnum:setColor(cc.c3b(250, 255, 255))
+        txtnum:enableOutline(cc.c3b(0x0c, 0x28, 0x8e), 3)
         txtnum:addTo(itemBtn:getVirtualRenderer())
     end
 

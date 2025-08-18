@@ -49,7 +49,7 @@ function BindAccountTipWinUI:ctor(isOpenBank)
     btn_checkNode:setVisible(false)
 
     local lbl_1 = cc.Label:createWithTTF(LangCtrl:getLang().word72, GameDefine.FontName, 30):align(display.LEFT_CENTER, 50, 30):addTo(btn_checkNode)
-    lbl_1:setColor(cc.c3b(0xa0, 0xa1, 0x72))
+    lbl_1:setColor(cc.c3b(0x94, 0xb4, 0xd3))
     local bg_check_1 = ccui.ImageView:create("app/login/check_1.png")
     bg_check_1:align(display.CENTER, 20, 30):addTo(btn_checkNode)
 

@@ -135,7 +135,7 @@ function WelcomeWinUI:createActiveOrWelcomPanle(isActiv)
     end
 
     -- local btncolor1, btncolor2 = cc.c3b(0x87, 0x7b, 0x6b), cc.c3b(0x44, 0x3d, 0x33)
-    local btncolor1, btncolor2 = cc.c3b(0x87, 0x7b, 0x6b), cc.c3b(250, 247, 212)
+    local btncolor1, btncolor2 = cc.c3b(0xff, 0xff, 0xff), cc.c3b(250, 247, 212)
     if #activeData == 0 then
         local ss = cc.size(self.winSize.width - 40, self.winSize.height - 100)
         local img_bg_3 = cc.Scale9Sprite:create("app/common/comwin/panel_2.png")

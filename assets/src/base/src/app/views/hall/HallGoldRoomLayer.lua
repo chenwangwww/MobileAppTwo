@@ -47,10 +47,10 @@ function HallGoldRoomLayer:initView()
             fontSize = 35
         end
         local lbl = cc.Label:createWithTTF(namestr, "fonts/fzcs.ttf", fontSize)
-        lbl:setColor(cc.c3b(255, 240, 165))
+        lbl:setColor(cc.c3b(255, 255, 255))
         lbl:setAnchorPoint(display.CENTER)
         lbl:setPosition(cc.p(980, 60))
-        lbl:enableOutline(cc.c4b(94, 26, 5, 255), 2)
+        lbl:enableOutline(cc.c3b(0x01, 0x50, 0x72), 2)
         self.topNode:addChild(lbl)
     end
 
