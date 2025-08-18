@@ -305,7 +305,7 @@ function _M.showConnection(text, time, callback, maskOpacity, contentNode)
     local size = cc.size(914, 597)
     local content = nil
     local conttenttime = nil
-    local color = cc.c3b(255, 240, 165)
+    local color = cc.c3b(0xbc, 0xde, 0xff)
 
     if connStr ~= nil then
         if type(connStr) == "string" then

@@ -49,7 +49,7 @@ GameDefine.shareAddress = ""
 GameDefine.FontName = "fonts/fzz.ttf"
 
 GameDefine.FontColor = cc.c3b(0xbc, 0xde, 0xff)
-GameDefine.FontColor_edit = cc.c3b(0x62, 0x5e, 0x55)
+GameDefine.FontColor_edit = cc.c3b(0x5c, 0x75, 0x8e)
 GameDefine.FontCoinColor = cc.c3b(0xd5, 0xc7, 0x61)
 GameDefine.NameColor = cc.c3b(0xe4, 0xd6, 0xb6)
 

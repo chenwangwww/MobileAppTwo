@@ -211,11 +211,11 @@ function WelcomeWinUI:createActiveOrWelcomPanle(isActiv)
             if i == 1 then
                 itemBtn:setEnabled(false)
                 lblName:setColor(btncolor2)
-                lblName:enableOutline(cc.c4b(68, 59, 52, 255), 2)
+                lblName:enableOutline(cc.c3b(0x26, 0x48, 0xc5), 2)
             else
                 itemBtn:setEnabled(true)
                 lblName:setColor(btncolor1)
-                lblName:enableOutline(cc.c4b(98, 90, 77, 255), 2)
+                lblName:enableOutline(cc.c3b(0x26, 0x48, 0xc5), 2)
             end
             itemBtn.itemData = activeData[i]
 

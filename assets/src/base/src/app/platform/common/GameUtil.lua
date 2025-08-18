@@ -1204,7 +1204,7 @@ function GameUtil.newDarkLightBtn(parent, btnidx, btnstr, btnsize, fontsize, cbf
     end
 
     lbl = cc.Label:createWithTTF(btnstr, "fonts/fzz.ttf", fontsize)
-    lbl:setColor(cc.c3b(255, 255, 213))
+    lbl:setColor(cc.c3b(255, 255, 255))
     -- lbl:enableOutline(cc.c4b(0, 0, 0, 122), 1)
     btn:getVirtualRenderer():addChild(lbl)
     lbl:align(display.CENTER, newSize.width / 2, newSize.height / 2)
