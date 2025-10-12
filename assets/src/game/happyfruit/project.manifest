@@ -1,7 +1,7 @@
 { 
-    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/happyfruit",
-    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/happyfruit/project.manifest",
-    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/happyfruit/version.manifest",
+    "packageUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/happyfruit",
+    "remoteManifestUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/happyfruit/project.manifest",
+    "remoteVersionUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/happyfruit/version.manifest",
     "version" : "19",
     "mainVersion" : "1",
     "engineVersion" : "3.16",

@@ -1,7 +1,7 @@
 {
-    "packageUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/mlcs",
-    "remoteManifestUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/mlcs/project.manifest",
-    "remoteVersionUrl" : "http://47.239.96.22:8108/r8yl/gameres/assets/android/game/mlcs/version.manifest",
+    "packageUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/mlcs",
+    "remoteManifestUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/mlcs/project.manifest",
+    "remoteVersionUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/mlcs/version.manifest",
     "version" : "9",
     "mainVersion" : "1",
     "engineVersion" : "3.16",

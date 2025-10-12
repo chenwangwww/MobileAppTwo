@@ -16,11 +16,11 @@
     <dimen name="abc_action_bar_content_inset_with_nav">72.0dip</dimen>
     <dimen name="abc_action_bar_default_padding_end_material">0.0dip</dimen>
     <dimen name="abc_action_bar_default_padding_start_material">0.0dip</dimen>
-    <dimen name="notification_right_side_padding_top">2.0dip</dimen>
-    <dimen name="abc_switch_padding">3.0dip</dimen>
-    <dimen name="notification_content_margin_start">8.0dip</dimen>
-    <dimen name="notification_main_column_padding_top">10.0dip</dimen>
-    <item type="dimen" name="notification_media_narrow_margin">@dimen/notification_content_margin_start</item>
+    <dimen name="notification_right_side_padding_top">4.0dip</dimen>
+    <dimen name="abc_switch_padding">0.0px</dimen>
+    <dimen name="notification_content_margin_start">0.0dip</dimen>
+    <dimen name="notification_main_column_padding_top">0.0dip</dimen>
+    <dimen name="notification_media_narrow_margin">12.0dip</dimen>
     <dimen name="abc_action_bar_elevation_material">4.0dip</dimen>
     <dimen name="abc_action_bar_icon_vertical_padding_material">16.0dip</dimen>
     <dimen name="abc_action_bar_overflow_padding_end_material">10.0dip</dimen>
