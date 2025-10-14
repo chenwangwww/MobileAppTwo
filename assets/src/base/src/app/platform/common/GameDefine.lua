@@ -12,24 +12,24 @@ GameDefine.bIsLocalSkipGameList = false -- 本地测试是否忽略gamelist.json
 GameDefine.playerHostIPStr = nil
 GameDefine.hostlists = {}
 
-GameDefine.loginIp = {"47.242.120.134", "47.242.120.134", "47.242.120.134"}
+GameDefine.loginIp = {"170.33.42.24", "170.33.42.24", "170.33.42.24"}
 GameDefine.loginPort = {7500, 7501, 7502, 7503, 7504, 7505}
 GameDefine.IPGroupCount = 4
 GameDefine.ConfineIPList = {} -- 通道IP过滤
 
 -- 测试服务器地址
 
-GameDefine.loginIp_test = {"47.242.120.134"}
+GameDefine.loginIp_test = {"170.33.42.24"}
 GameDefine.loginPort_test = {7500}
 
 -- 审核版本ip
-GameDefine.loginIp_check = {"47.242.120.134", "47.242.120.134"}
+GameDefine.loginIp_check = {"170.33.42.24", "170.33.42.24"}
 GameDefine.loginPort_check = {8300, 8301, 8302, 61300, 61301, 61302}
 
 -- 配置文件更新地址 每个平台配置文件单独 方便后期控制
 GameDefine.platformUpdateUrl = {
-    ["android"] = "http://47.242.120.134:8108/r8yl/gameres/assets/android/app/gamelist1.json",
-    ["ios"] = "https://47.242.120.134:9108/r8yl/gameres/assets/ios/app/gamelist2.json"
+    ["android"] = "http://170.33.42.24:8108/r8yl/gameres/assets/android/app/gamelist1.json",
+    ["ios"] = "https://170.33.42.24:9108/r8yl/gameres/assets/ios/app/gamelist2.json"
 }
 
 -- 更新地址

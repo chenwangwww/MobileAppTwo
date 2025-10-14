@@ -95,7 +95,7 @@ function HallNodeBottom:initView()
         xhr:send()
     end
     local function onClickguanwang(target)
-        local apiUrl = "http://47.238.4.97:9001/api/index/getXyAppUrl"
+        local apiUrl = "http://170.33.42.24:9001/api/index/getXyAppUrl"
         local url = ""
         GetStringByUrl(
             apiUrl, 
