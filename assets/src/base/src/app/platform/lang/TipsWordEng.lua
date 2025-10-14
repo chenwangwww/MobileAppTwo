@@ -358,6 +358,7 @@ cc.exports.TipsWordEng = {
     word357 = "",
     word358 = "",
     word359 = "",
-    word360 = ""
+    word360 = "",
+    word361 = "Website"
 }
 -- LangCtrl:getLang().word

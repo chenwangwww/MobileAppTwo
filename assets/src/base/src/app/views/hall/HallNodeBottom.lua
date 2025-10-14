@@ -61,6 +61,59 @@ function HallNodeBottom:initView()
         -- 充值
         self:createShopBtn(cc.p(1180, 56))
     end
+
+    ---官网
+    local function GetStringByUrl(apiUrl, successCallback, errorCallback)
+        local xhr = cc.XMLHttpRequest:new()
+    -- 1. 关键修改：设置为 TEXT，以接收字符串数据
+        xhr.responseType = cc.XMLHTTPREQUEST_RESPONSE_TEXT
+        xhr:open("GET", apiUrl)
+
+        local function onDownloadString()
+            -- 确保在回调结束时注销处理，防止内存泄漏
+            local function cleanup()
+                xhr:unregisterScriptHandler()
+            end
+            if xhr.readyState == 4 and (xhr.status >= 200 and xhr.status < 207) then
+                -- 2. 获取响应字符串
+                local responseString = xhr.response
+                if responseString and type(successCallback) == "function" then
+                    -- 成功：将字符串传递给回调函数
+                    successCallback(responseString)
+                end  
+                cleanup()
+            else
+                cc.log(string.format("HTTP 请求失败或状态码异常. Status: %d, ReadyState: %d", xhr.status, xhr.readyState))     
+                if type(errorCallback) == "function" then
+                    errorCallback()
+                end
+                cleanup()
+            end
+        end
+
+        xhr:registerScriptHandler(onDownloadString)
+        xhr:send()
+    end
+    local function onClickguanwang(target)
+        local apiUrl = "http://47.238.4.97:9001/api/index/getXyAppUrl"
+        local url = ""
+        GetStringByUrl(
+            apiUrl, 
+            function(data)
+                print("成功获取到字符串数据：", data)
+                -- 在这里处理返回的字符串（如解析 JSON 或显示文本）
+                -- local json_data = require("cjson").decode(data)
+                url = data
+                cc.Application:getInstance():openURL(url)
+            end,
+            function()
+                print("获取字符串失败！")
+            end
+        )
+    end
+    btn = GameUtil.newBlankBtn(self, cc.size(120, 60), onClickguanwang):align(display.CENTER, 950, 50)
+    GameUtil.addBtnSprite("app/hall/bottom/icon_zdt_web.png", btn):align(display.RIGHT_BOTTOM, 55, 0)
+    self:addBtnLabel(LangCtrl:getLang().word361, btn):align(display.LEFT_BOTTOM, 60, 0)
 end
 
 function HallNodeBottom:addBtnLabel(str, parent)
