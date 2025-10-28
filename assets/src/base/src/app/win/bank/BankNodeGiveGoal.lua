@@ -204,23 +204,23 @@ function BankNodeGiveGoal:ctor(bankui)
 
     if LangCtrl:isCN() and globalUserInfo.cbMemberOrder and globalUserInfo.cbMemberOrder < 4 then
         self.tBtnList = {{
-            btnname = "14.5万",
-            btnvalue = 145000
+            btnname = "15.5万",
+            btnvalue = 155000
         }, {
-            btnname = "29万",
-            btnvalue = 290000
+            btnname = "31万",
+            btnvalue = 310000
         }, {
-            btnname = "72.5万",
-            btnvalue = 725000
+            btnname = "77.5万",
+            btnvalue = 775000
         }, {
-            btnname = "145万",
-            btnvalue = 1450000
+            btnname = "155万",
+            btnvalue = 1550000
         }, {
-            btnname = "725万",
-            btnvalue = 7250000
+            btnname = "775万",
+            btnvalue = 7750000
         }, {
-            btnname = "1450万",
-            btnvalue = 14500000
+            btnname = "1550万",
+            btnvalue = 15500000
         }, {
             btnname = "5000万",
             btnvalue = 50000000
