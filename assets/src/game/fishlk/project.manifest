@@ -1,7 +1,7 @@
 { 
-    "packageUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/fishlk",
-    "remoteManifestUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/fishlk/project.manifest",
-    "remoteVersionUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/fishlk/version.manifest",
+    "packageUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/fishlk",
+    "remoteManifestUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/fishlk/project.manifest",
+    "remoteVersionUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/fishlk/version.manifest",
     "version" : "20",
     "mainVersion" : "1",
     "engineVersion" : "3.16",

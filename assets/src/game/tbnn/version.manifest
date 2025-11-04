@@ -1,7 +1,7 @@
 {
-    "packageUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/tbnn",
-    "remoteManifestUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/tbnn/project.manifest",
-    "remoteVersionUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/tbnn/version.manifest",
+    "packageUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/tbnn",
+    "remoteManifestUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/tbnn/project.manifest",
+    "remoteVersionUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/tbnn/version.manifest",
     "version" : "21",
     "mainVersion" : "1",
     "engineVersion" : "3.16"

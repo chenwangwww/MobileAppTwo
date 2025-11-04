@@ -28,8 +28,8 @@ GameDefine.loginPort_check = {8300, 8301, 8302, 61300, 61301, 61302}
 
 -- 配置文件更新地址 每个平台配置文件单独 方便后期控制
 GameDefine.platformUpdateUrl = {
-    ["android"] = "http://170.33.42.24:8108/r8yl/gameres/assets/android/app/gamelist1.json",
-    ["ios"] = "https://170.33.42.24:9108/r8yl/gameres/assets/ios/app/gamelist2.json"
+    ["android"] = "http://b.xingyuegame777.com/r8yl/gameres/assets/android/app/gamelist1.json",
+    ["ios"] = "http://b.xingyuegame777.com/r8yl/gameres/assets/ios/app/gamelist2.json"
 }
 
 -- 更新地址

@@ -1,7 +1,7 @@
 { 
-    "packageUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/jdnn",
-    "remoteManifestUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/jdnn/project.manifest",
-    "remoteVersionUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/jdnn/version.manifest",
+    "packageUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/jdnn",
+    "remoteManifestUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/jdnn/project.manifest",
+    "remoteVersionUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/jdnn/version.manifest",
     "version" : "28",
     "mainVersion" : "1",
     "engineVersion" : "3.16",

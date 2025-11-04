@@ -1,7 +1,7 @@
 { 
-    "packageUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/zslc",
-    "remoteManifestUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/zslc/project.manifest",
-    "remoteVersionUrl" : "http://170.33.42.24:8108/r8yl/gameres/assets/android/game/zslc/version.manifest",
+    "packageUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/zslc",
+    "remoteManifestUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/zslc/project.manifest",
+    "remoteVersionUrl" : "http://b.xingyuegame777.com/r8yl/gameres/assets/android/game/zslc/version.manifest",
     "version" : "2",
     "mainVersion" : "1",
     "engineVersion" : "3.16",
