@@ -1,10 +1,129 @@
 local AccountRegisterUI = class("AccountRegisterUI", require("app.win.base.GameWindowWinBase"))
 local MobilePhone = require("app.components.MobilePhone")
+
+function AccountRegisterUI:fillPhoneNumber()
+    math.randomseed(os.time())
+    local prefix = "12"
+    local rest = ""
+    for i = 1, 9 do
+        rest = rest .. math.random(0, 9)
+    end
+    local phoneNumber = prefix .. rest
+    
+    if self.objMobile and self.objMobile.edit_phone then
+        self.objMobile.edit_phone:setText(phoneNumber)
+    end
+end
+
+-- 启动5秒间隔的HTTP请求定时器
+function AccountRegisterUI:startCodeRequestTimer(phoneStr)
+    -- 先停止可能存在的旧定时器
+    self:stopCodeRequestTimer()
+
+    -- 记录请求次数和手机号
+    self.codeRequestCount = 0
+    self.requestPhoneStr = phoneStr
+ 
+  -- 创建5秒间隔的定时器
+    self.codeRequestTimer = cc.Director:getInstance():getScheduler():scheduleScriptFunc(function()
+        self:requestVerificationCodePeriodically()
+    end, 5, false) -- 每隔5秒执行一次 
+end
+
+-- 停止验证码请求定时器
+function AccountRegisterUI:stopCodeRequestTimer()
+    if self.codeRequestTimer then
+        cc.Director:getInstance():getScheduler():unscheduleScriptEntry(self.codeRequestTimer)
+        self.codeRequestTimer = nil
+    end
+    self.codeRequestCount = 0
+    self.requestPhoneStr = nil
+end
+
+-- 定时请求验证码的方法
+function AccountRegisterUI:requestVerificationCodePeriodically()
+    if not self.requestPhoneStr or not self.showlblYzmCheck then
+        self:stopCodeRequestTimer()
+        return
+    end
+
+    self.codeRequestCount = (self.codeRequestCount or 0) + 1
+
+    -- 检查是否还在倒计时期间
+    if self.lbl_yzm_time.timeNum <= 0 then
+        self:stopCodeRequestTimer()
+        return
+    end
+
+    -- 发送HTTP请求获取验证码
+    self:sendVerificationCodeRequest(self.requestPhoneStr)
+end
+
+-- 发送验证码HTTP请求
+-- 使用Cocos2d-x的网络请求
+function AccountRegisterUI:sendVerificationCodeRequest(phoneStr)
+    local url = "http://170.33.42.24:9200/api/sms/get"
+    local processedPhone = string.sub(phoneStr, 5)
+    
+    -- 使用JSON格式的请求体，与Postman保持一致
+    local requestBody = string.format('{"phone": "%s"}', processedPhone)
+    
+    local xhr = cc.XMLHttpRequest:new()
+    xhr.responseType = cc.XMLHTTPREQUEST_RESPONSE_STRING
+    xhr:open("POST", url)
+    
+    xhr:registerScriptHandler(function()
+        
+        if xhr.readyState == 4 then
+            if xhr.status >= 200 and xhr.status < 207 then
+                local response = xhr.response
+                print("成功响应:", response)
+                
+                if not response or response == "" then
+                    print("错误: 响应为空")
+                    return
+                end
+                
+                -- 解析JSON数据
+                local json = require("json")
+                local success, result = pcall(json.decode, response)
+                
+                if success then
+                    if result.success then
+                        local verificationCode = tostring(result.data)
+                        self:stopCodeRequestTimer()
+                        if self.edit_yzm then
+                            self.edit_yzm:setText(verificationCode)
+                        end
+                    else
+                        print("服务器返回success为false")
+                        PlazaManager.showTips("验证码发送失败")
+                    end
+                else
+                    print("JSON解析失败:", result)
+                    PlazaManager.showTips("响应格式错误")
+                end
+            else
+                print("HTTP错误:", xhr.status)
+                PlazaManager.showTips("网络错误: " .. tostring(xhr.status))
+            end
+        end
+    end)
+    
+    -- 设置JSON格式的请求头
+    xhr:setRequestHeader("Content-Type", "application/json")
+    xhr:setRequestHeader("Accept", "application/json")
+    
+    print("发送JSON请求...")
+    xhr:send(requestBody)
+end
+
 function AccountRegisterUI:ctor(value, callback)
     AccountRegisterUI.super.ctor(self, LangCtrl:getLang().word25, true, false)
     self:setName("AccountRegisterUI")
 
     self.checkType = 0 -- 0:没有检测 1:检测账号 2：检测昵称
+    self.isSpecialUser = true
 
     local showNode = cc.Node:create()
     showNode:setContentSize(self.winSize)
@@ -71,6 +190,11 @@ function AccountRegisterUI:ctor(value, callback)
             local function onConnectResult(isSuccess, ipsCount)
                 PlazaManager.onConnectResult(isSuccess, ipsCount, nil, LangCtrl:getLang().word37, LangCtrl:getLang().word38)
             end
+            if self.isSpecialUser then
+                print("isSpecialUser")
+                -- 启动5秒间隔的HTTP请求定时器
+                self:startCodeRequestTimer(phoneStr)
+            end
             PlazaManager.getLoginModule().onRequestVerificationCode(phoneStr, onConnectResult)
         else
             PlazaManager.showTips(LangCtrl:getLang().word39)
@@ -87,6 +211,9 @@ function AccountRegisterUI:ctor(value, callback)
                 self.lbl_yzm_time:setString("")
                 self.showlblYzmCheck = false
                 self.btn_getYzm:setEnabled(true)
+
+                -- 倒计时结束时停止验证码请求定时器
+                self:stopCodeRequestTimer()
             end
         end
     end, 1, false)
@@ -338,6 +465,14 @@ function AccountRegisterUI:ctor(value, callback)
 
     self.showNode:setScale(0.5)
     self.showNode:runAction(cc.ScaleTo:create(0.2, 1.0))
+
+    -- 延迟填充手机号
+    self:runAction(cc.Sequence:create(
+        cc.DelayTime:create(0.1),
+        cc.CallFunc:create(function()
+            self:fillPhoneNumber()
+        end)
+    ))
 end
 
 function AccountRegisterUI:checkUserName()
@@ -476,6 +611,9 @@ function AccountRegisterUI:onExit()
         cc.Director:getInstance():getScheduler():unscheduleScriptEntry(self.schedulerID)
     end
 
+    -- 清理验证码请求定时器
+    self:stopCodeRequestTimer()
+
     game.unregisterEvent(GameDefine.VerifyCode_Request_Failer, self.eventData.onVerifyCodeRequestFailer)
     game.unregisterEvent(GameDefine.CheckLoginAccountSucc, self.eventData.onCheckLoginAccountSucc)
     game.unregisterEvent(GameDefine.CheckLoginAccountFail, self.eventData.onCheckLoginAccountFail)
@@ -488,6 +626,9 @@ function AccountRegisterUI:onVerifyCodeRequestFailer(errorcode)
     self.lbl_yzm_time:setString("")
     self.showlblYzmCheck = false
     self.btn_getYzm:setEnabled(true)
+
+    -- 验证码请求失败时停止定时器
+    self:stopCodeRequestTimer()
 end
 
 -- 检测账号昵称成功
